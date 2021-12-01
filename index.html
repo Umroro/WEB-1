@@ -1,68 +1,73 @@
-<!doctype html>
-<html>
-<head>
-  <title>WEB 1 - HTML</title>
-  <meta charset="utf-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165113235-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!DOCTYPE html>
+<html>    
+    <head>
+        <title>Web1 - HOME</title>
+        <meta charset="utf-8">
+        <!--웹 페이지를 utf-8 형식으로 저장 한다는 의미-->
+    </head>
 
-  gtag('config', 'UA-165113235-1');
-</script>
+    <body>
+        <h1><a href="index.html">WEB</a></h1>
+        <ol>
+            <li><a href="1.html">HTML</a></li> 
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
+        <!--<ul> 순서 X, <ol> 순서 O-->
+    
+        <h2>프렙과정</h2>
+            <a href="https://opentutorials.org/course/1" target="_blank" rel="noopenr noreferrer">생활코딩</a> 
+            <u>사전학습</u> 및 실습
 
-</head>
-<body>
-  <h1><a href="index.html">Coding</a></h1>
-  <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-  </ol>
-  <h2>2020. 03. 01 Start Coding</h2>
-  <u>Start</u><strong><a href="https://en.wikipedia.org/wiki/Coding" target="_blank" title="coding sprecification"> Coding</a></strong> First
-  <br><img src="coding.jpg" width="800" height="400">
-  <p><iframe width="800" height="400" src="https://www.youtube.com/embed/bTSDDyuMuUo?list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-  <p style="margin-top:40px;"><strong>Fashion</strong>
-  <br>I was a fashion major</p>
-  <p style="margin-top:40px;>"><strong>Computer Engineering</strong>
-    <br>I want to transfer to Computer Science</p>
-  <p><div id="disqus_thread"></div>
-<script>
+            <p>
+            HTML / CSS / JavaScript
+            </p>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://web-1-7e5sjzpq1i.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </p>
-  <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5eab292f203e206707f870ba/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+            <p>
+                <img src="camping.jpg" width="560" height="315">
+            </p>
 
-</body>
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3Dke2VlJ8Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+            <!--동영상 삽입-->
+            <p>
+                <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                        /*
+                        var disqus_config = function () {
+                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+                        */
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://web-1-ilda8v6qm8.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </p>
+            <!--댓글 기능 삽입(DISQUS)-->
+            <p>
+                <!--Start of Tawk.to Script-->
+                <script type="text/javascript">
+                    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                    (function(){
+                    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                    s1.async=true;
+                    s1.src='https://embed.tawk.to/5eab292f203e206707f870ba/default';
+                    s1.charset='UTF-8';
+                    s1.setAttribute('crossorigin','*');
+                    s0.parentNode.insertBefore(s1,s0);
+                    })();
+                    </script>
+                    <!--End of Tawk.to Script-->
+            </p>
+            <!--채팅 기능 삽입(tawk.to)-->
+    </body>
 </html>
